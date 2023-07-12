@@ -20,3 +20,4 @@ https://css-tricks.com/vitepwa-plugin-offline-service-worker/ <br>
 https://adueck.github.io/blog/caching-everything-for-totally-offline-pwa-vite-react/ <br>
 https://weatherups.vercel.app/ <br>
 https://github.com/bhendi-boi/WeatherUps <br>
+https://vitejs.dev/guide/static-deploy.html <br>
