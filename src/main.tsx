@@ -9,7 +9,13 @@ import { registerSW } from "virtual:pwa-register";
 const updateSW = registerSW({
   onNeedRefresh() {
     if (confirm("New content available. Reload?")) {
+      console.log("updated")
       updateSW(true);
+    }
+  },
+  onOfflineReady() {
+    if (confirm("Offline Ready")) {
+      console.log("offline")
     }
   },
 });
